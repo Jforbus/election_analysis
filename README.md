@@ -220,7 +220,7 @@ the results of the election are sent to the terminal and saved the file. First, 
 
 After these steps are finished, the tasks required by the election board are complete and the audit is ready for submission. When the script is run, the results of the election are printed in the terminal and saved in a text file titled `election_analysis.txt` that can be sent to the Colorado Board of Elections.
 
-![election_results]()
+![election_results](https://github.com/Jforbus/election_analysis/blob/main/Analysis/election_results.png)
 
 
 ## Challenge Summary
