@@ -224,4 +224,6 @@ After these steps are finished, the tasks required by the election board are com
 
 
 ## Challenge Summary
+The python script written to accomplish this task accurately determined all the necessary information and transmitted this data in an easily accessible format. With few minor adjustments the Colorado Board of Elections could use this script to audit any election. This script could also be modified in certain ways to expand its uses. It could be modified to read and analyze election data from multiple sources instead of a single CSV file. This would allow the script to be more versatile in the types of elections it can audit as well as help the election board to aggregate data from multiple sources easily. The script could also be modified to provide a more in-depth look at the election data from any given election, such as providing a candidate vote count by county summarization, showing which counties voted for which candidates and in what amounts. Overall it is a well written script that would be a useful tool to the Colorado Board of Elections, or any election commission.
+
 
