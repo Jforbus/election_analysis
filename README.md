@@ -127,6 +127,7 @@ With the file open, a loop is created that reads each row of data in the file. A
         # 5: Add a vote to that county's vote count.
         county_votes[county_name] += 1
 ```
+
 Now, with the file to save the results opened,
 
 ```
@@ -217,7 +218,9 @@ the results of the election are sent to the terminal and saved the file. First, 
     txt_file.write(winning_candidate_summary)
 ```
 
-After these steps are finished, the tasks required by the election board are complete and the audit is ready for submission. When the script is run, the results of the election are printed in the terminal and saved in a text file titled `election_analysis.txt` that can be sent to the Colorado Board of Elections. 
+After these steps are finished, the tasks required by the election board are complete and the audit is ready for submission. When the script is run, the results of the election are printed in the terminal and saved in a text file titled `election_analysis.txt` that can be sent to the Colorado Board of Elections.
+
+![election_results]()
 
 
 ## Challenge Summary
