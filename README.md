@@ -134,7 +134,7 @@ Now, with the file to save the results opened,
 # Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
 ```
-the results of the election are sent to the terminal and saved the file. First, the total votes in the election are called.Then a loop is then created to pass through the `county_votes` dictionary and calculate the percentage of votes cast in each county, and determine which county received the largest number of votes. These results are then printed to the terminal and saved in the designated text file. An additional loop is created to pass through the `candidate_votes` dictionary, calculate the percentage of votes each candidate received, and determine the winner of the election. These results are also printed to the terminal and saved in the designated text file. 
+the final results of the election are calculated, formatted, sent to the terminal, and saved to the text file. First, the total votes in the election are printed and saved in a readable format. Then a loop is created to pass through the `county_votes` dictionary and calculate the percentage of votes cast in each county, and determine which county received the largest number of votes. These results are then printed to the terminal and saved in the designated text file. An additional loop is created to pass through the `candidate_votes` dictionary, calculate the percentage of votes each candidate received, and determine the winner of the election. These results are also printed to the terminal and saved in the designated text file.
 
 ```
  # Print the final vote count (to terminal)
