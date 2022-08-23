@@ -84,7 +84,7 @@ winning_county_votes = 0
 winning_county_percentage = 0
 ```
 
-With the file open, a loop is created that reads each row of data in the file. As each row is read, the voting data is collecting and a series of conditions is checked. At every row a vote is added to the tally of total votes. The first condition checked is whether the candidate name which received the current vote exists in a candidate list and if a count of votes for the candidate has been established. If this is the first occurence of the candidates name, it is added to the list that holds the candidate names and a count is established for the candidate. 
+With the file open, a loop is created that reads each row of data in the file. As each row is read, the voting data is collected and a series of conditions is checked. At every row a vote is added to the tally of total votes. The first condition checked is whether the candidate name which received the current vote exists in a candidate list and if a count of votes for the candidate has been established. If this is the first occurence of the candidate's name, it is added to the list that holds the candidate names and a count is established for the candidate. 
 ```
     # Read the header
     header = next(reader)
